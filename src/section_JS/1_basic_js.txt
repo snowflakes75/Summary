@@ -1,0 +1,21 @@
+Типы комментариев
+
+//
+
+/*
+*/
+
+Объявление переменной
+
+var имя_переменной = значение;
+
+Типы данных в JS:
+    undefined
+    null
+    boolean
+    string
+    symbol
+    bigint
+    number
+    object
+
