@@ -1,0 +1,15 @@
+Для debuga в JS применяется
+console.log(переменная или строка)
+
+выведет это значение в консоль браузера
+
+console.clear() - очистит консоль от "мусора"
+
+typeof переменная - вернет тип перменной
+    Boolean
+    Null
+    Undefined
+    Number
+    String
+    Symbol (ES6)
+    Object

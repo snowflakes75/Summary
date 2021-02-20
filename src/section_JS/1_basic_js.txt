@@ -9,13 +9,25 @@
 
 var имя_переменной = значение;
 
-Типы данных в JS:
-    undefined
-    null
-    boolean
-    string
-    symbol
-    bigint
-    number
-    object
+Стоит отметить, что JS очень чуствительный к регистру
+MYVAR != myVar. Принят CamelCase в JS.
 
+Типы данных в JS:
+    1)undefined
+    2)null
+    3)boolean
+    4)string
+    5)symbol
+    6)bigint
+    7)number
+    8)object
+
+В случае если JS пытаться обратиться и работать с не инициализированной
+переменной, то он ее автоматом задаст значение undefined
+
+Если производить математические операции с undefined, то выходит NaN(Not a Number)
+Если строка + undefined = "undefined" (получается литеральный undefined)
+
+Number - это все числовые типы
+
+В JS применяется инкремент и декримент. i++ and i--
